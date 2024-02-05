@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Feb  4 12:06:32 2024
+# Process ID: 21388
+# Current directory: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1
+# Command line: vivado.exe -log mmcm_100MHz.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mmcm_100MHz.tcl
+# Log file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1/mmcm_100MHz.vds
+# Journal file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1\vivado.jou
+# Running On: DESKTOP-905B2CS, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17101 MB
+#-----------------------------------------------------------
+source mmcm_100MHz.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1002.480 ; gain = 118.156
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mmcm_100MHz
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8ed4c96619c22ca3 to dir: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/8/e/8ed4c96619c22ca3/mmcm_100MHz.dcp to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1/mmcm_100MHz.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/8/e/8ed4c96619c22ca3/mmcm_100MHz_sim_netlist.v to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1/mmcm_100MHz_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/8/e/8ed4c96619c22ca3/mmcm_100MHz_sim_netlist.vhdl to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1/mmcm_100MHz_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/8/e/8ed4c96619c22ca3/mmcm_100MHz_stub.v to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1/mmcm_100MHz_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/8/e/8ed4c96619c22ca3/mmcm_100MHz_stub.vhdl to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1/mmcm_100MHz_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mmcm_100MHz, cache-ID = 8ed4c96619c22ca3.
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  4 12:06:44 2024...

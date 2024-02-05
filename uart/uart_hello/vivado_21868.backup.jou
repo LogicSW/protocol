@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Feb  4 11:25:04 2024
+# Process ID: 21868
+# Current directory: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18692 C:\Users\Rp\Desktop\Homework\Homework\uart_hello\uart_hello\uart_hello.xpr
+# Log file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/vivado.log
+# Journal file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello\vivado.jou
+# Running On: DESKTOP-905B2CS, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17101 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_uart_tx.tcl
+add_force {/tb_uart_tx/DUT/data} -radix hex {1 0ns} -cancel_after 1s
+relaunch_sim
+add_force {/tb_uart_tx/DUT/rst_n} -radix hex {1 0ns} -cancel_after 1s
+close_sim
+launch_simulation
+source tb_uart_tx.tcl
+add_force {/tb_uart_tx/DUT/rst_n} -radix hex {1 0ns} -cancel_after 10s
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000000ps} -repeat_every 52000000ps -cancel_after 10s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+run all
+run all
+close_sim
+launch_simulation
+source tb_uart_tx.tcl
+add_force {/tb_uart_tx/DUT/mclk} -radix bin {0 0ns} {1 26000ps} -repeat_every 52000ps -cancel_after 10s
+relaunch_sim
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000ps} -repeat_every 52000ps -cancel_after 10s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+run all
+relaunch_sim
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000000ps} -repeat_every 52000000ps -cancel_after 100s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+relaunch_sim
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000ps} -repeat_every 52000ps -cancel_after 10s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+save_wave_config {C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg
+set_property xsim.view C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg [get_filesets sim_1]
+save_wave_config {C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg}
+close_sim
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+place_ports tx J18
+set_property package_pin "" [get_ports [list  clk]]
+set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1]
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+set_property target_constrs_file C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+set_property package_pin "" [get_ports [list  clk]]
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property part xc7a35tcpg236-1 [current_project]
+reset_run mmcm_100MHz_synth_1
+reset_run ila_uart_hello_synth_1
+reset_run vio_uart_hello_synth_1
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list tx]]
+set_property package_pin "" [get_ports [list  clk]]
+place_ports clk L17
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1

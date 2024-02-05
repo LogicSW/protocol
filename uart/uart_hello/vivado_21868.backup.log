@@ -1,0 +1,704 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Feb  4 11:25:04 2024
+# Process ID: 21868
+# Current directory: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18692 C:\Users\Rp\Desktop\Homework\Homework\uart_hello\uart_hello\uart_hello.xpr
+# Log file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/vivado.log
+# Journal file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello\vivado.jou
+# Running On: DESKTOP-905B2CS, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17101 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1782.191 ; gain = 340.840
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_uart_tx' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_uart_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_uart_tx_behav -key {Behavioral:sim_1:Functional:tb_uart_tx} -tclbatch {tb_uart_tx.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_uart_tx.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_uart_tx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1843.121 ; gain = 27.559
+add_force {/tb_uart_tx/DUT/data} -radix hex {1 0ns} -cancel_after 1s
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_uart_tx' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_uart_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1846.867 ; gain = 3.746
+add_force {/tb_uart_tx/DUT/rst_n} -radix hex {1 0ns} -cancel_after 1s
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_uart_tx' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_uart_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_uart_tx_behav -key {Behavioral:sim_1:Functional:tb_uart_tx} -tclbatch {tb_uart_tx.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_uart_tx.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_uart_tx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1856.242 ; gain = 8.422
+add_force {/tb_uart_tx/DUT/rst_n} -radix hex {1 0ns} -cancel_after 10s
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000000ps} -repeat_every 52000000ps -cancel_after 10s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance tb_uart_tx.DUT.mmcm.inst.mmcm_adv_inst 
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1860.566 ; gain = 4.324
+run all
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:38 . Memory (MB): peak = 1860.566 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:56 . Memory (MB): peak = 1862.184 ; gain = 1.617
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 16696 KB (Peak: 16696 KB), Simulation CPU Usage: 101374 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_uart_tx' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_uart_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_uart_tx_behav -key {Behavioral:sim_1:Functional:tb_uart_tx} -tclbatch {tb_uart_tx.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_uart_tx.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_uart_tx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1865.781 ; gain = 3.598
+add_force {/tb_uart_tx/DUT/mclk} -radix bin {0 0ns} {1 26000ps} -repeat_every 52000ps -cancel_after 10s
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_uart_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1865.781 ; gain = 0.000
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000ps} -repeat_every 52000ps -cancel_after 10s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance tb_uart_tx.DUT.mmcm.inst.mmcm_adv_inst 
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:37 . Memory (MB): peak = 1868.051 ; gain = 1.230
+run all
+run: Time (s): cpu = 00:00:48 ; elapsed = 00:01:07 . Memory (MB): peak = 1869.734 ; gain = 1.684
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 16668 KB (Peak: 16668 KB), Simulation CPU Usage: 103671 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_uart_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1869.734 ; gain = 0.000
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000000ps} -repeat_every 52000000ps -cancel_after 100s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance tb_uart_tx.DUT.mmcm.inst.mmcm_adv_inst 
+run: Time (s): cpu = 00:00:18 ; elapsed = 00:01:53 . Memory (MB): peak = 1878.605 ; gain = 8.871
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 16676 KB (Peak: 16676 KB), Simulation CPU Usage: 112530 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_uart_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1880.695 ; gain = 2.090
+add_force {/tb_uart_tx/DUT/clk_uart} -radix bin {0 0ns} {1 26000ps} -repeat_every 52000ps -cancel_after 10s
+add_force {/tb_uart_tx/DUT/rst_n} -radix bin {1 0ns} -cancel_after 10s
+run all
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance tb_uart_tx.DUT.mmcm.inst.mmcm_adv_inst 
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1880.809 ; gain = 0.113
+save_wave_config {C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg
+set_property xsim.view C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg [get_filesets sim_1]
+save_wave_config {C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/tb_uart_tx_behav.wcfg}
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 16696 KB (Peak: 16696 KB), Simulation CPU Usage: 19937 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs synth_1 -jobs 6
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sun Feb  4 11:53:01 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-1
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_uart_hello.dcp' for cell 'ila'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.dcp' for cell 'mmcm'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.dcp' for cell 'vio'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 2281.027 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 126 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila UUID: 901a5f55-8b29-50a8-8131-f43987f6be78 
+INFO: [Chipscope 16-324] Core: vio UUID: 1be27d51-1a4c-50dc-974f-3e22d2c609b9 
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_board.xdc] for cell 'mmcm/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_board.xdc] for cell 'mmcm/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc] for cell 'mmcm/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc:57]
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc] for cell 'mmcm/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila.xdc] for cell 'ila/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila.xdc] for cell 'ila/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+Finished Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2968.520 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 60 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 60 instances
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2993.402 ; gain = 1100.516
+place_ports tx J18
+set_property package_pin "" [get_ports [list  clk]]
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1]
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Rp\Desktop\Homework\Homework\uart_hello\uart_hello\uart_hello.srcs\sources_1\new\uart_hello.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Rp\Desktop\Homework\Homework\uart_hello\uart_hello\uart_hello.srcs\sim_1\new\tb_uart_tx.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property target_constrs_file C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Sun Feb  4 12:02:11 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_uart_hello.dcp' for cell 'ila'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.dcp' for cell 'mmcm'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.dcp' for cell 'vio'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 3031.797 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 126 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila UUID: 901a5f55-8b29-50a8-8131-f43987f6be78 
+INFO: [Chipscope 16-324] Core: vio UUID: 1be27d51-1a4c-50dc-974f-3e22d2c609b9 
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_board.xdc] for cell 'mmcm/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_board.xdc] for cell 'mmcm/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc] for cell 'mmcm/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc:57]
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc] for cell 'mmcm/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila.xdc] for cell 'ila/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila.xdc] for cell 'ila/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+Finished Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3043.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 60 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 60 instances
+
+set_property package_pin "" [get_ports [list  clk]]
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+synth_1_copy_1
+set_property part xc7a35tcpg236-1 [current_project]
+WARNING: [IP_Flow 19-2162] IP 'mmcm_100MHz' is locked:
+* Current project part 'xc7a35tcpg236-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'mmcm_100MHz' do not match.
+WARNING: [IP_Flow 19-2162] IP 'ila_uart_hello' is locked:
+* Current project part 'xc7a35tcpg236-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'ila_uart_hello' do not match.
+WARNING: [IP_Flow 19-2162] IP 'vio_uart_hello' is locked:
+* Current project part 'xc7a35tcpg236-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'vio_uart_hello' do not match.
+reset_run mmcm_100MHz_synth_1
+reset_run ila_uart_hello_synth_1
+reset_run vio_uart_hello_synth_1
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [Project 1-577] IP run mmcm_100MHz_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run ila_uart_hello_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run vio_uart_hello_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/ila_uart_hello/ila_uart_hello.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/ila_uart_hello/ila_uart_hello.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/vio_uart_hello/vio_uart_hello.xci
+
+WARNING: [Project 1-576] IP 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xci' in run mmcm_100MHz_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/ila_uart_hello/ila_uart_hello.xci' in run ila_uart_hello_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/sources_1/ip/vio_uart_hello/vio_uart_hello.xci' in run vio_uart_hello_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Sun Feb  4 12:06:30 2024] Launched mmcm_100MHz_synth_1, ila_uart_hello_synth_1, vio_uart_hello_synth_1...
+Run output will be captured here:
+mmcm_100MHz_synth_1: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/mmcm_100MHz_synth_1/runme.log
+ila_uart_hello_synth_1: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1/runme.log
+vio_uart_hello_synth_1: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/vio_uart_hello_synth_1/runme.log
+[Sun Feb  4 12:06:30 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/synth_1
+
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+launch_runs synth_1 -jobs 6
+[Sun Feb  4 12:08:26 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_uart_hello.dcp' for cell 'ila'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.dcp' for cell 'mmcm'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.dcp' for cell 'vio'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 3047.266 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 126 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Chipscope 16-324] Core: ila UUID: 901a5f55-8b29-50a8-8131-f43987f6be78 
+INFO: [Chipscope 16-324] Core: vio UUID: 1be27d51-1a4c-50dc-974f-3e22d2c609b9 
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'inst' within module 'mmcm_100MHz' for instance 'mmcm'. The XDC file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_board.xdc will not be read for this cell.
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'inst' within module 'mmcm_100MHz' for instance 'mmcm'. The XDC file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc will not be read for this cell.
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'inst' within module 'ila_uart_hello' for instance 'ila'. The XDC file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila_impl.xdc will not be read for this cell.
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'inst' within module 'ila_uart_hello' for instance 'ila'. The XDC file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila.xdc will not be read for this cell.
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+Finished Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Common 17-344] 'open_run' was cancelled
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_uart_hello.dcp' for cell 'ila'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.dcp' for cell 'mmcm'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.dcp' for cell 'vio'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 3047.266 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 126 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila UUID: 901a5f55-8b29-50a8-8131-f43987f6be78 
+INFO: [Chipscope 16-324] Core: vio UUID: 1be27d51-1a4c-50dc-974f-3e22d2c609b9 
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_board.xdc] for cell 'mmcm/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_board.xdc] for cell 'mmcm/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc] for cell 'mmcm/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc:57]
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.xdc] for cell 'mmcm/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila.xdc] for cell 'ila/inst'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/ila_uart_hello/ila_v6_2/constraints/ila.xdc] for cell 'ila/inst'
+Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Finished Parsing XDC File [c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.gen/sources_1/ip/vio_uart_hello/vio_uart_hello.xdc] for cell 'vio'
+Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+Finished Parsing XDC File [C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.srcs/constrs_1/new/main.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3096.680 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 60 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 60 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 3096.680 ; gain = 49.414
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list tx]]
+set_property package_pin "" [get_ports [list  clk]]
+place_ports clk L17
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.041 . Memory (MB): peak = 3096.680 ; gain = 0.000
+[Sun Feb  4 12:11:26 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  4 12:15:19 2024...

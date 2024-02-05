@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Feb  4 12:06:32 2024
+# Process ID: 11572
+# Current directory: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1
+# Command line: vivado.exe -log ila_uart_hello.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_uart_hello.tcl
+# Log file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1/ila_uart_hello.vds
+# Journal file: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1\vivado.jou
+# Running On: DESKTOP-905B2CS, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17101 MB
+#-----------------------------------------------------------
+source ila_uart_hello.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1001.793 ; gain = 117.449
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_uart_hello
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 3290b91343809e60 to dir: C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/3/2/3290b91343809e60/ila_uart_hello.dcp to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1/ila_uart_hello.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/3/2/3290b91343809e60/ila_uart_hello_sim_netlist.v to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1/ila_uart_hello_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/3/2/3290b91343809e60/ila_uart_hello_sim_netlist.vhdl to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1/ila_uart_hello_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/3/2/3290b91343809e60/ila_uart_hello_stub.v to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1/ila_uart_hello_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.cache/ip/2022.2/3/2/3290b91343809e60/ila_uart_hello_stub.vhdl to C:/Users/Rp/Desktop/Homework/Homework/uart_hello/uart_hello/uart_hello.runs/ila_uart_hello_synth_1/ila_uart_hello_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP ila_uart_hello, cache-ID = 3290b91343809e60.
+config_ip_cache: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1064.109 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  4 12:06:53 2024...

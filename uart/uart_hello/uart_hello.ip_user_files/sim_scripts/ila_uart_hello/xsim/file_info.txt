@@ -1,0 +1,2 @@
+ila_uart_hello.v,verilog,xil_defaultlib,../../../../uart_hello.gen/sources_1/ip/ila_uart_hello/sim/ila_uart_hello.v,incdir="../../../../uart_hello.gen/sources_1/ip/ila_uart_hello/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v
