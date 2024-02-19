@@ -1,0 +1,2 @@
+vio_spi.v,verilog,xil_defaultlib,../../../../project_1.gen/sources_1/ip/vio_spi/sim/vio_spi.v,incdir="../../../../project_1.gen/sources_1/ip/vio_spi/hdl/verilog"incdir="../../../../project_1.gen/sources_1/ip/vio_spi/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

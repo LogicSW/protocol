@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Feb 19 22:36:49 2024
+# Process ID: 11472
+# Current directory: C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log spi_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source spi_top.tcl -notrace
+# Log file: C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.runs/impl_1/spi_top.vdi
+# Journal file: C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.runs/impl_1\vivado.jou
+# Running On: DESKTOP-905B2CS, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17101 MB
+#-----------------------------------------------------------
+source spi_top.tcl -notrace

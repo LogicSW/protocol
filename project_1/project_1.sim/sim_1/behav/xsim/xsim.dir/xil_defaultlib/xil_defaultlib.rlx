@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.gen/sources_1/ip/ila_spi/sim/ila_spi.v,1708343781,verilog,,C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_clk_wiz.v,,ila_spi,,uvm,../../../../project_1.gen/sources_1/ip/mmcm_100MHz,,,,,
+C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.v,1708343651,verilog,,,,mmcm_100MHz,,uvm,../../../../project_1.gen/sources_1/ip/mmcm_100MHz,,,,,
+C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz_clk_wiz.v,1708343651,verilog,,C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.gen/sources_1/ip/mmcm_100MHz/mmcm_100MHz.v,,mmcm_100MHz_clk_wiz,,uvm,../../../../project_1.gen/sources_1/ip/mmcm_100MHz,,,,,
+C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.gen/sources_1/ip/vio_spi/sim/vio_spi.v,1708343810,verilog,,C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.gen/sources_1/ip/ila_spi/sim/ila_spi.v,,vio_spi,,uvm,../../../../project_1.gen/sources_1/ip/mmcm_100MHz,,,,,
+C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/Rp/Desktop/digital_project/Protocol/project_1/project_1.srcs/sources_1/new/spi_top.sv,1708346644,systemVerilog,,,,spi_top,,uvm,../../../../project_1.gen/sources_1/ip/mmcm_100MHz,,,,,
